@@ -1,8 +1,8 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
 
-$user = 'root';
-$password = 'vertrigo';
+$user = 'YourUser';
+$password = 'YourPassword';
 
 //PDO
 $dsn = 'mysql:host=localhost;dbname=taxi;charset=utf8;';
