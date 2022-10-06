@@ -1,1 +1,2 @@
-# taxi_project_php
+<h1>Проект "Такси" на php</h1>
+<p>Необходимо распаковать папку sysplagins в папке libs</p>
