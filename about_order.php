@@ -48,7 +48,6 @@ if (isset($_COOKIE['address_from'])){
     JOIN class_car cc ON uo.class_car = cc.id LEFT JOIN group_services gs ON uo.add_services = gs.id LEFT JOIN add_services ads1
     ON gs.service1 = ads1.id LEFT JOIN add_services ads2 ON gs.service2 = ads2.id LEFT JOIN add_services ads3 ON gs.service3 = ads3.id
     WHERE uo.id =".$order_id_)->fetch(PDO::FETCH_ASSOC);
-    print_r($arr);
     $from = $arr['from'];
     setcookie('address_from', $from, time()+3600, "/");
     $to = $arr['to'];
