@@ -18,7 +18,6 @@
     <div id="main">
         <header>
             <img src='img/taxi_label.png' width="135" height="135" id="label"/>
-            <h3>{$current_page}</h3>
             {if $has_entered}
                 <ul class="account_login menu">
                 <li>{$login}
