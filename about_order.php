@@ -24,7 +24,6 @@ if (isset($_GET['cancel_order'])){
     header("Location: order_taxi.php"); exit();
 }
 $nums_services = array(1=> "NULL", 2 => "NULL", 3 => "NULL");
-print_r($_COOKIE);
 if (isset($_COOKIE['address_from'])){
     $from = $_COOKIE['address_from'];
     $to = $_COOKIE['address_to'];
